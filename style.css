@@ -1,54 +1,79 @@
 body {
-  font: 18px arial, sans-serif;
-  background: #eee;
+    /*Set default pixel size for the entire body of the document*/
+    font: 18px arial, sans-serif;
+    background: #eee;
 }
+
+
+/*Set the giphy results windows to 70% of the window width*/
 
 #animals {
-  width: 70%;
+    width: 70%;
 }
+
+
+/*Set all generated divs with giphy content to float left and have a little padding*/
 
 .animal-item {
-  float: left;
-  padding: 10px;
+    float: left;
+    padding: 10px;
 }
+
+
+/*Keep the form 30% of the window's width and on the right of the page*/
 
 form {
-  float: right;
-  width: 30%;
-  padding: 20px;
+    float: right;
+    width: 30%;
+    padding: 20px;
 }
+
+
+/*Make the text more bold on the */
 
 label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
+
+/*Define the text in the input*/
+
 input[type="text"] {
-  width: 100%;
-  height: 30px;
-  margin-bottom: 10px;
-  font-size: 18px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
+
+
+/*Define the padding, margin, font, color, cursor type, unicorn quantity, border radius, border, shadow and background of the input button*/
 
 button,
 input[type="submit"] {
-  padding: 5px 20px;
-  margin: 0 10px 10px 0;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  background: #659a98;
-  border: 0;
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px #bbb;
+    padding: 5px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #659a98;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #bbb;
 }
+
+
+/*Change color on hover*/
 
 button:hover,
 input[type="submit"]:hover {
-  background: #334e4d;
+    background: #334e4d;
 }
 
+
+/*Define the color of the "active" class on buttons*/
+
 button.active {
-  background: #334e4d;
+    background: #334e4d;
 }
